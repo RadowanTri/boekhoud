@@ -984,6 +984,9 @@
    position: relative;
 }
 
+.faq-accordian .accordion h5.collapsed:before {
+    background: url(img/arrow-wb.svg) no-repeat calc(100% - 5px) center;
+}
 .faq-accordian .accordion h5::before {
     background: url(img/arrow-wt.svg) no-repeat calc(100% - 5px) center;
     content: "";
@@ -992,9 +995,6 @@
     width: 20px;
     right: 8px;
     z-index: 1;
-}
-.faq-accordian .accordion h5.collapsed:before{
-    background: url(img/arrow-wb.svg) no-repeat calc(100% - 5px) center;
 }
 .faq-accordian .faq-item{
     border: 1px solid rgba(237, 238, 239, 1);
