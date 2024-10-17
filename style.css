@@ -96,7 +96,7 @@
     background: white;
 }
 .banner-content  .software-overview-details {
-    margin-left: 4px !important;
+    margin-left: 9px !important;
 }
 .software-overview-details li{
     font-size: 16px;
@@ -654,7 +654,9 @@
     color: rgba(17, 17, 17, 1);
     padding: 0px;
  }
- 
+ .bottom-section-left li a.active {
+    color: rgba(64, 59, 203, 1);
+}
 
 .bottom-section-top-title{
     font-size: 36px;
@@ -885,6 +887,7 @@
 .expert-info-des-b p:last-child{
     margin-bottom: 0px;
 }
+.methodology-content h4,
 .bookkeping-content h4{
     font-weight: 600;
     font-size: 20px;
@@ -893,6 +896,8 @@
     color: rgba(17, 17, 17, 1);
 
 }
+
+.methodology-content .icon,
 .bookkeping-content .icon{
     display: flex;
     align-items: center;
@@ -908,6 +913,8 @@
     background: transparent;
     background: rgba(27, 190, 132, 1);
 }
+
+.methodology-content li,
 .bookkeping-content li{
     background: rgba(232, 248, 243, 1);
     padding: 20px;
@@ -921,20 +928,37 @@
 
 .bookkeping-content li:nth-child(2) {
     background: rgba(239, 247, 255, 1);
-
 }
 .bookkeping-content li:nth-child(2) .icon{
     background: rgba(91, 167, 238, 1);
 }
 .bookkeping-content li:nth-child(3) {
     background: rgba(255, 246, 234, 1);
-    
-
 }
 .bookkeping-content li:nth-child(3) .icon{
     background: rgba(226, 155, 60, 1);
 }
 
+.methodology-content li:nth-child(1) {
+    background: rgba(253, 240, 236, 1);
+}
+.methodology-content li:nth-child(1) .icon {
+    background: rgba(239, 100, 59, 1);
+}
+
+.methodology-content li:nth-child(2) {
+    background: rgba(64, 59, 203, 0.1);
+}
+.methodology-content li:nth-child(2) .icon{
+    background: rgba(64, 59, 203, 1);
+}
+.methodology-content li:nth-child(3) {
+    background: rgba(233, 248, 249, 1);
+
+}
+.methodology-content li:nth-child(3) .icon{
+    background: rgba(39, 190, 200, 1);
+}
 .faq-accordian .accordion h5 {
     cursor: pointer;
     margin: 0;
@@ -981,4 +1005,9 @@
     -ms-border-radius: 20px;
     -o-border-radius: 20px;
     margin-bottom: 15px;
+}
+
+.ratting-reviews{
+    font-size: 18px;
+    color: rgba(17, 17, 17, 1);
 }
