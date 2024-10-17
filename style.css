@@ -204,6 +204,17 @@
     color: rgba(64, 59, 203, 1);
 }
 
+
+.filter-section .single-software{
+    padding: 24px;
+    border: 1px solid rgba(237, 238, 239, 1);
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    background: #fff !important;
+}
 .font-18{
     font-size: 18px;
     font-weight: 500;
@@ -226,7 +237,7 @@
     box-shadow: none;
   }
 
-.filter-section .accordion .card {
+.filter-section .left-side-navigation  .accordion .card {
     border: none;
     background: rgba(239, 247, 255, 1);
     padding: 16px;
@@ -235,16 +246,14 @@
     -moz-border-radius: 20px;
     -ms-border-radius: 20px;
     -o-border-radius: 20px;
-}
-.filter-section .accordion .card {
     margin-top: 15px;
 }
+
 
   .filter-section .accordion .card h4 {
     background: url(img/arrow_up.svg) no-repeat calc(100% - 5px) center;
     cursor: pointer;
-    margin-top: 0;
-    margin-bottom: 10px;
+    margin: 0;
   }
   .filter-section .accordion .card h4.collapsed {
     background-image: url(img/arrow_down.svg);
@@ -442,7 +451,7 @@
 .software-leftside{
     padding-right: 25px;
 }
-
+.border-btn,
 .com-btn{
     border-radius: 55px;
     padding: 16px 24px ;
@@ -465,6 +474,14 @@
     justify-content: center;
     width: 180px;
 }
+.border-btn{
+    background-color: transparent;
+    color: var(--primary-color);
+}
+.border-btn:hover{
+    background-color: var(--primary-color);
+    color: #fff;
+}
 .com-btn svg {
     display: -webkit-box;
     display: -webkit-flex;
@@ -474,6 +491,9 @@
     opacity: 0;
     -webkit-margin-start: -12px;
     margin-inline-start: -12px;
+    /* display: none; */
+    visibility: hidden;
+    width: 0;
 }
 .com-btn:hover{
     color: #fff;
@@ -484,6 +504,9 @@
     margin-inline-start: 8px;
     -webkit-transition: opacity ease 0.3s, margin ease 0.3s;
     transition: opacity ease 0.3s, margin ease 0.3s;
+    /* display: block; */
+    visibility: visible;
+    width: 24px;
 }
 .soft-details-right{
     display: flex;
@@ -494,4 +517,102 @@
 }
 .soft-details-right-btn{
     margin-top: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.software-top-wrapper {
+    border-bottom: 1px solid rgba(237, 238, 239, 1);
+    padding-bottom: 22px;
+    margin-bottom: 15px;
+}
+
+
+.filter-section .software-bottom .accordion .card h4 {
+    padding-right: 25px;
+    font-size: 16px;
+    font-weight: 500;
+    margin: 0;
+    color: rgba(64, 59, 203, 1);
+    
+
+}
+.filter-section .software-bottom  .card-head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.filter-section .software-bottom  .accordion .card {
+    border: none;
+    background: transparent;
+    padding: 0px;
+    border-radius: 0px;
+}
+
+.font-w-500{
+    font-weight: 500;
+}
+.expert-wrapper {
+    background: rgba(255, 246, 234, 1);
+    padding: 16px;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+.expert-heading {
+    font-weight: 500;
+    color: rgba(64, 59, 203, 1);
+    display: flex;
+    gap: 3px;
+    align-items: center;
+    margin-bottom: 4px;
+}
+
+ .nav-wrappper .nav-tabs {
+    border-bottom: 1px solid rgba(237, 238, 239, 1);
+  }
+
+  .nav-wrappper .nav-tabs .nav-link {
+    border: none; 
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 18.2px;
+    color: rgba(0, 0, 0, 1);
+    text-transform: capitalize;
+
+  }
+
+  .nav-wrappper .nav-tabs .nav-link.active {
+    color: rgba(64, 59, 203, 1);
+    border-bottom: 2px solid rgba(64, 59, 203, 1);
+  }
+
+  .nav-wrappper .nav-tabs .nav-link:hover {
+    color: rgba(64, 59, 203, 1);
+  }
+
+  .pros-details-title{
+    font-size: 14px;
+    font-weight: 500;
+    color: rgba(17, 17, 17, 1);
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    background: rgba(232, 248, 243, 1);
+    padding: 10px;
+    border-radius: 39px;
+    -webkit-border-radius: 39px;
+    -moz-border-radius: 39px;
+    -ms-border-radius: 39px;
+    -o-border-radius: 39px;
+    margin-bottom: 10px;
+    line-height: 18.2px;
+}
+
+.pros-details-right .pros-details-title{
+    background: rgba(239, 101, 61, 0.1);
+
 }
