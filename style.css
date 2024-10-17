@@ -76,7 +76,7 @@
     align-items: center;
 }
 
-.software-overview-item h3 a{
+.software-overview-item h3{
     font-size: 14px;
     font-weight: 700;
     line-height: 18.2px;
@@ -193,15 +193,13 @@
     border-radius: 78px;
     font-size: 16px;
     font-weight: 500;
-    border: 1px solid rgba(237, 238, 239, 1);
-    background: rgba(237, 237, 255, 1);
-    color: rgba(28, 26, 103, 1);
+    background: rgb(239 247 255);
+    color: rgba(28, 26, 103, 1)
 }
 .banner-link-area li a.active,
 .banner-link-area li a:hover{
-    background: rgba(237, 237, 255, 1);
-    border: 1px solid  rgba(237, 237, 255, 1);
-    color: rgba(64, 59, 203, 1);
+    background: rgba(64, 59, 203, 1);
+    color: #fff;
 }
 
 
@@ -251,12 +249,17 @@
 .filter-section .left-side-navigation  .accordion .card-body{
     margin-top: 10px;
 }
-
+.software-overview   .accordion  h3,
   .filter-section .accordion .card h4 {
     background: url(img/arrow_up.svg) no-repeat calc(100% - 5px) center;
     cursor: pointer;
     margin: 0;
   }
+  .software-overview   .accordion  h3{
+    padding-right: 25px;
+    padding-top: 0px;
+  }
+  .software-overview   .accordion  h3.collapsed,
   .filter-section .accordion .card h4.collapsed {
     background-image: url(img/arrow_down.svg);
   }
