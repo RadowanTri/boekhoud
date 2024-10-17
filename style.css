@@ -248,7 +248,9 @@
     -o-border-radius: 20px;
     margin-top: 15px;
 }
-
+.filter-section .left-side-navigation  .accordion .card-body{
+    margin-top: 10px;
+}
 
   .filter-section .accordion .card h4 {
     background: url(img/arrow_up.svg) no-repeat calc(100% - 5px) center;
@@ -473,6 +475,7 @@
     text-align: center;
     justify-content: center;
     width: 180px;
+    cursor: pointer;
 }
 .border-btn{
     background-color: transparent;
@@ -489,8 +492,7 @@
     display: flex;
     position: relative;
     opacity: 0;
-    -webkit-margin-start: -12px;
-    margin-inline-start: -12px;
+    /* margin-inline-start: -12px; */
     /* display: none; */
     visibility: hidden;
     width: 0;
@@ -541,6 +543,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+   
 }
 
 .filter-section .software-bottom  .accordion .card {
@@ -561,6 +564,7 @@
     -moz-border-radius: 20px;
     -ms-border-radius: 20px;
     -o-border-radius: 20px;
+    margin-top: 8px;
 }
 .expert-heading {
     font-weight: 500;
@@ -570,9 +574,12 @@
     align-items: center;
     margin-bottom: 4px;
 }
-
+.nav-wrappper {
+    margin-top: 10px;
+}
  .nav-wrappper .nav-tabs {
     border-bottom: 1px solid rgba(237, 238, 239, 1);
+    margin-bottom: 25px;
   }
 
   .nav-wrappper .nav-tabs .nav-link {
