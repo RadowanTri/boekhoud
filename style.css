@@ -1458,7 +1458,7 @@
     }
   
     .recent-blog-area .btn{
-        width: auto !important;
+        max-width: 100% !important;
     }
     .bottom-section-right li h4{
         flex: 1;
