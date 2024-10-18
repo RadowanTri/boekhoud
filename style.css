@@ -1334,7 +1334,7 @@
          display: block;
     }
     .recent-blog-area .blog-btn-abs .btn {
-        width: 100% !important;
+        max-width: 100% !important;
     }
     .expert-info .profile-name h4 {
         font-size: 16px;
@@ -1458,7 +1458,7 @@
     }
   
     .recent-blog-area .btn{
-        max-width: 100% !important;
+        max-width: auto !important;
     }
     .bottom-section-right li h4{
         flex: 1;
