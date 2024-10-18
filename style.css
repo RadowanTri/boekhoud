@@ -1082,6 +1082,9 @@
     align-items: center;
     gap: 80px;
 }
+.read-more-f{
+    margin-bottom: 0px;
+}
 @media (min-width: 992px) and (max-width: 1199px) {
     .font-20{
         font-size: 18px;
