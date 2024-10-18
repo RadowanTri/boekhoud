@@ -684,6 +684,7 @@
     color: rgba(17, 17, 17, 1);
     margin: 0;
     padding: 0px;
+    margin-bottom: 10px;
 }
 
 .bottom-section-top-heading p{
@@ -1124,6 +1125,10 @@
     .border-btn, .com-btn {
         height: 42px;
     }
+    .bottom-section-top-title{
+        font-size: 31px;
+        line-height: 35px;
+    }
    
 }
 @media (min-width: 768px) and (max-width: 991px) {
@@ -1146,7 +1151,6 @@
         display: flex;
         align-items: center;
         gap: 10px;
-        margin-bottom: 10px;
     }
     .sm-none{
         display: none;
@@ -1462,6 +1466,9 @@
     }
     .methodology-content li, .bookkeping-content li{
         padding: 10px 12px;
+    }
+    .methodology-content .sm-flex, .bookkeping-content .sm-flex{
+        margin-bottom: 8px;
     }
     .top-section-area .banner-content-r .btn {
         height: 40px;
