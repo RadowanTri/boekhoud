@@ -2506,7 +2506,6 @@
 																	</li>
 																	<li>
 																		<p class="boekhouder-rating-score p-0 m-0 d-inline sm-color-1"> 4,6<span>/5</span>
-																			<span class="ratting-reviews sm-color-1">(1.422 reviews)</span>
 																		</p>
 																	</li>
 																</ul>
@@ -2521,14 +2520,14 @@
 														<div class="separator sm-none"><hr></div>
 														<div class="ratting-b ">
 															<a href="#" class="d-flex gap-3">
-																<p class="boekhouder-rating-score p-0 m-0">9<span>/10</span></p>
+																<p class="boekhouder-rating-score p-0 m-0">10<span>/10</span></p>
 																<div class="flex-item">
 																	<img src="img/logo_boekhouder.svg" alt="logo_boekhouder">
 																	<div class="font-16c theme-color ">Rating ZZP </div>
 																</div>
 															</a>
 															<a href="#" class="d-flex gap-3">
-																<p class="boekhouder-rating-score p-0 m-0">9<span>/10</span></p>
+																<p class="boekhouder-rating-score p-0 m-0">10<span>/10</span></p>
 																<div class="flex-item">
 																	<img src="img/logo_boekhouder.svg" alt="logo_boekhouder">
 																	<div class="font-16c theme-color ">Rating ZZP </div>
@@ -2545,13 +2544,24 @@
 																effect stroke italic follower. Library main bullet layer figma duplicate pen. Distribute
 																pixel flows blur group move pencil fill list. Pencil export main italic text pixel
 																selection clip. Create plugin underline bold bullet content clip. </p>
-															<p class="read-more-f">Mask align export select bullet clip prototype bold. Effect link
-																distribute layout variant
-																clip union plugin outline. Distribute slice clip align figma effect scale.
-																<span>
-																	<a href="#" class="read-more">Read More</a>
-																</span>
-															</p>
+															<div class="read-more-f">
+
+																<div  id="read-more-content">Mask align export select bullet clip prototype bold. Effect link
+																	distribute layout variant
+																	clip union plugin outline. Distribute slice clip align figma effect scale.
+																	<span class="more-content" style="display: none;">
+																		Mask align export select bullet clip prototype bold. Effect link
+																	distribute layout variant
+																	clip union plugin outline. Distribute slice clip align figma effect scale.
+																	</span>
+																	<p>
+
+																		<span class="read-more"  id="readMoreBtnOne">
+																			Read More
+																		</span>
+																	</p>
+																</div>
+															</div>
 														</div>
 													</div>
 													<!-- account-right-info end  -->
@@ -2641,7 +2651,7 @@
 																	</li>
 																	<li>
 																		<p class="boekhouder-rating-score p-0 m-0 d-inline sm-color-1"> 4,6<span>/5</span>
-																			<span class="ratting-reviews sm-color-1">(1.422 reviews)</span>
+																			
 																		</p>
 																	</li>
 																</ul>
@@ -2676,19 +2686,31 @@
 														<div class="lg-none sm-border-b"></div>
 													</div>
 													<!-- account-left-info end -->
+													
 													<div class="account-right-info">
 														<div class="description-p">
 															<p>Project reesizing shadow duplicate boolean link. Mask style bold object flows library
 																effect stroke italic follower. Library main bullet layer figma duplicate pen. Distribute
 																pixel flows blur group move pencil fill list. Pencil export main italic text pixel
 																selection clip. Create plugin underline bold bullet content clip. </p>
-															<p class="read-more-f">Mask align export select bullet clip prototype bold. Effect link
-																distribute layout variant
-																clip union plugin outline. Distribute slice clip align figma effect scale.
-																<span>
-																	<a href="#" class="read-more">Read More</a>
-																</span>
-															</p>
+															<div class="read-more-f">
+
+																<div  id="read-more-content">Mask align export select bullet clip prototype bold. Effect link
+																	distribute layout variant
+																	clip union plugin outline. Distribute slice clip align figma effect scale.
+																	<span class="more-content" style="display: none;">
+																		Mask align export select bullet clip prototype bold. Effect link
+																	distribute layout variant
+																	clip union plugin outline. Distribute slice clip align figma effect scale.
+																	</span>
+																	<p>
+
+																		<span class="read-more"  id="readMoreBtnOne">
+																			Read More
+																		</span>
+																	</p>
+																</div>
+															</div>
 														</div>
 													</div>
 													<!-- account-right-info end  -->
@@ -3601,6 +3623,16 @@
 			console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
 		}
 		// ]]>
+	</script>
+	<script>
+		document.getElementById('readMoreBtnOne').addEventListener('click', function() {
+    const moreContent = document.querySelector('.more-content');
+    const isVisible = moreContent.style.display === 'inline';
+
+    moreContent.style.display = isVisible ? 'none' : 'inline';
+	this.textContent = isVisible ? 'Read More' : 'Read Less';
+});
+
 	</script>
 </body>
 
