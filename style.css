@@ -1499,11 +1499,11 @@
         font-size: 13px;
         height: auto;
     }
-    .nav-wrappper .nav-tabs {
+    /* .nav-wrappper .nav-tabs {
         border-bottom: none;
         margin-bottom: 20px;
     }
-  
+   */
     .recent-blog-area .btn{
         max-width: auto !important;
     }
