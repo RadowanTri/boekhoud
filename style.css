@@ -691,7 +691,7 @@
  .bottom-section-wapper{
     margin-top: 50px;
  }
-  .nav -title{
+  .nav-title{
     font-size: 16px;
     font-weight: 500;
     border-bottom: 1px solid rgba(237, 238, 239, 1);
@@ -1131,6 +1131,16 @@
 }
 .white-bg-boek, #content, .alt-section {
     background: #ffffff !important;
+}
+.smoth-scroll{
+    transition: all .3s ease-in-out;
+}
+.header-wrapper {
+  border-bottom: 1px solid #EDEEEF;
+}
+.breadcrumb-section {
+    margin: 0 !important;
+    margin-top: 15px !important;
 }
 @media (min-width: 992px) and (max-width: 1199px) {
     .font-20{
