@@ -1198,6 +1198,9 @@
 .expert-info .profile-info{
     gap: 16px;
 }
+.zzp-area .owl-carousel {
+    display: flex;
+}
 @media (min-width: 992px) and (max-width: 1199px) {
     .font-20{
         font-size: 18px;
@@ -1730,10 +1733,7 @@
     .sm-br {
         display: block;
     }
-    .zzp-area .owl-carousel{
-        display: flex;
-        padding-right: 0px;
-    }
+   
     .banner-link-area li:last-child{
         margin-right:10px;
     }
