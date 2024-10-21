@@ -2515,7 +2515,10 @@
 																		<span><i class="fa fa-star-half-o"></i></span>
 																	</li>
 																	<li>
-																		<p class="boekhouder-rating-score p-0 m-0 d-inline sm-color-1"> 4,6<span>/5</span>
+																		<p class="boekhouder-rating-score p-0 m-0 d-inline sm-color-1">
+																			 4,6
+																			 <span>/5 </span>
+																			 <span class="ratting-reviews sm-color-1  lg-inline">(1.422 reviews)</span>
 																		</p>
 																	</li>
 																</ul>
@@ -2556,7 +2559,7 @@
 																selection clip. Create plugin underline bold bullet content clip. </p>
 															<div class="read-more-f">
 
-																<div  id="read-more-content">Mask align export select bullet clip prototype bold. Effect link
+																<p  id="read-more-content">Mask align export select bullet clip prototype bold. Effect link
 																	distribute layout variant
 																	clip union plugin outline. Distribute slice clip align figma effect scale.
 																	<span class="more-content" style="display: none;">
@@ -2564,13 +2567,10 @@
 																	distribute layout variant
 																	clip union plugin outline. Distribute slice clip align figma effect scale.
 																	</span>
-																	<p>
-
-																		<span class="read-more"  id="readMoreBtnOne">
+																	<span class="read-more"  id="readMoreBtnOne">
 																			Read More
-																		</span>
-																	</p>
-																</div>
+																	</span>
+																</p>
 															</div>
 														</div>
 													</div>
@@ -2660,8 +2660,8 @@
 																		<span><i class="fa fa-star-half-o"></i></span>
 																	</li>
 																	<li>
-																		<p class="boekhouder-rating-score p-0 m-0 d-inline sm-color-1"> 4,6<span>/5</span>
-																			
+																		<p class="boekhouder-rating-score p-0 m-0 d-inline sm-color-1"> 4,6<span>/5</span> 
+																			<span class="ratting-reviews sm-color-1  lg-inline">(1.422 reviews)</span>
 																		</p>
 																	</li>
 																</ul>
@@ -2703,24 +2703,21 @@
 																effect stroke italic follower. Library main bullet layer figma duplicate pen. Distribute
 																pixel flows blur group move pencil fill list. Pencil export main italic text pixel
 																selection clip. Create plugin underline bold bullet content clip. </p>
-															<div class="read-more-f">
+																<div class="read-more-f">
 
-																<div  id="read-more-content">Mask align export select bullet clip prototype bold. Effect link
-																	distribute layout variant
-																	clip union plugin outline. Distribute slice clip align figma effect scale.
-																	<span class="more-content" style="display: none;">
-																		Mask align export select bullet clip prototype bold. Effect link
-																	distribute layout variant
-																	clip union plugin outline. Distribute slice clip align figma effect scale.
-																	</span>
-																	<p>
-
-																		<span class="read-more"  id="readMoreBtnOne">
-																			Read More
+																	<p  id="read-more-content">Mask align export select bullet clip prototype bold. Effect link
+																		distribute layout variant
+																		clip union plugin outline. Distribute slice clip align figma effect scale.
+																		<span class="more-content" style="display: none;">
+																			Mask align export select bullet clip prototype bold. Effect link
+																		distribute layout variant
+																		clip union plugin outline. Distribute slice clip align figma effect scale.
+																		</span>
+																		<span class="read-more"  id="readMoreBtnTwo">
+																				Read More
 																		</span>
 																	</p>
 																</div>
-															</div>
 														</div>
 													</div>
 													<!-- account-right-info end  -->
@@ -2798,7 +2795,7 @@
 										<div class="smoth-scroll recent-blog-area pt-5" id="news">
 											<div class="bottom-section-top-heading ">
 												<h4 class="bottom-section-top-title">Recent News</h4>
-												<a href="#" class="btn">Lees Meer Op Ons Blog</a>
+												<a href="#" class="btn m-0">Lees Meer Op Ons Blog</a>
 											</div>
 											<!-- bottom-section-top-heading end  -->
 											<div class="recent-blog-wrapper mt-3">
@@ -2913,6 +2910,9 @@
 													<!-- blog-describe end  -->
 												</div>
 												<!-- blog-single-item end  -->
+												<div class="blog-sm-btn lg-none">
+													<button class="btn">Lees Meer Op Ons Blog</button>
+												</div>
 											</div>
 											<!-- recent-blog-wrapper end  -->
 										</div>
@@ -2964,7 +2964,7 @@
 															<div class="profile-img"></div>
 															<div class="profile-name">
 																<h4>Expert Name</h4>
-																<p> Expert Name</p>
+																<p>Contributor</p>
 															</div>
 														</div>
 													</div>
@@ -3636,12 +3636,19 @@
 	</script>
 	<script>
 		document.getElementById('readMoreBtnOne').addEventListener('click', function() {
-    const moreContent = document.querySelector('.more-content');
-    const isVisible = moreContent.style.display === 'inline';
+		const moreContent = document.querySelector('.more-content');
+		const isVisible = moreContent.style.display === 'inline';
 
-    moreContent.style.display = isVisible ? 'none' : 'inline';
-	this.textContent = isVisible ? 'Read More' : 'Read Less';
-});
+		moreContent.style.display = isVisible ? 'none' : 'inline';
+		this.textContent = isVisible ? 'Read More' : 'Read Less';
+	});
+	document.getElementById('readMoreBtnTwo ').addEventListener('click', function() {
+		const moreContent = document.querySelector('.more-content');
+		const isVisible = moreContent.style.display === 'inline';
+
+		moreContent.style.display = isVisible ? 'none' : 'inline';
+		this.textContent = isVisible ? 'Read More' : 'Read Less';
+	});
 
 	</script>
 </body>

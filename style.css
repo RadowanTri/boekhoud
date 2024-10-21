@@ -131,7 +131,9 @@
     padding: 20px;
 
 }
-.recent-blog-area .btn,
+.blog-sm-btn .btn,
+.recent-blog-area  .blog-quote-item-two .btn,
+.recent-blog-area .bottom-section-top-heading .btn,
 .banner-content	.banner-content-r .btn{
     border-radius: 36px !important;
     padding: 16px 24px;
@@ -452,6 +454,11 @@
     line-height: 18.2px;
     color: rgba(28, 26, 103, 1);
 }
+
+.software-leftside-top-hed .font-14 {
+    color: rgba(17, 17, 17, 0.7);
+
+}
 .flex-item{
     display: flex;
     align-items: center;
@@ -552,6 +559,10 @@
 .border-btn{
     background-color: transparent;
     color: var(--primary-color);
+}
+.load-btn .border-btn {
+    max-width: 210px;
+    width: 100%;
 }
 .border-btn:hover{
     background-color: var(--primary-color);
@@ -659,7 +670,7 @@
 
   .nav-wrappper .nav-tabs .nav-link {
     border: none; 
-    font-size: 14px;
+    font-size: 14px !important;
     font-weight: 600;
     line-height: 18.2px;
     color: rgba(0, 0, 0, 1);
@@ -741,7 +752,7 @@
     font-size: 18px;
     font-weight: 400;
     line-height: 28.8px;
-    
+    color: rgba(17, 17, 17, 0.8);
 }
 .bottom-section-top-heading{
     margin-bottom: 20px;
@@ -802,10 +813,10 @@
     color: rgba(64, 59, 203, 1);
 }
 .read-more{
-    display: inline-block;
+    display: table;
     margin-top: 15px;
-    font-size: 16px;
-    font-weight: 500;
+    font-size: 18px;
+    font-weight: 600;
     border: none;
     border-bottom: 1.5px solid rgba(64, 59, 203, 1);
     color: rgba(64, 59, 203, 1);
@@ -839,7 +850,16 @@
 .software-account-details p{
     margin: 0;
 }
-
+.blog-sm-btn .btn,
+.recent-blog-area .bottom-section-top-heading .btn{
+    height: 48px;
+    max-width: 278px;
+    border-radius: 55px !important;
+    -webkit-border-radius: 55px !important;
+    -moz-border-radius: 55px !important;
+    -ms-border-radius: 55px !important;
+    -o-border-radius: 55px !important;
+}
 .recent-blog-area .bottom-section-top-heading{
     display: flex;
     justify-content: space-between;
@@ -903,12 +923,15 @@
     -o-border-radius: 20px;
     width: 262px;
     max-width: 100%;
+    gap: 16px;
 }
 .expert-content .publication-history .profile-name{
     flex: 1;
 }
 .expert-content .profile-name p{
    color: #fff;
+   font-size: 16px;
+   font-weight: 500;
 }
 .expert-content .publication-history ul {
     display: flex;
@@ -928,7 +951,7 @@
 
 .expert-info .profile-name h4{
     font-weight: 600;
-    font-size: 19px;
+    font-size: 24px;
     line-height: 31.2px;
     margin: 0;
     color: #fff;
@@ -944,7 +967,7 @@
 }
 
 .expert-info .profile-name p{
-    font-size: 14px;
+    font-size: 18px;
     font-weight: 400;
     color: rgba(255, 255, 255, 1);
     margin: 0;
@@ -1159,6 +1182,22 @@
     margin: 0 !important;
     margin-top: 15px !important;
 }
+.lg-inline{
+    display: none;
+}
+.recent-blog-area .blog-quote-item-two .btn{
+   max-height: 58px;
+}
+.blog-quote-item .font-20{
+    line-height: 26px;
+}
+.pros-area  .description-p p{
+    color: rgba(0, 0, 0, 0.8);
+
+}
+.expert-info .profile-info{
+    gap: 16px;
+}
 @media (min-width: 992px) and (max-width: 1199px) {
     .font-20{
         font-size: 18px;
@@ -1229,6 +1268,7 @@
         align-items: center;
         gap: 10px;
     }
+
     .sm-none{
         display: none;
     }
@@ -1275,6 +1315,9 @@
         display: flex;
         justify-content: space-between;
     }
+    .account-left-info  .sm-flex-s{
+        flex-direction: row-reverse;
+    }
     
     .software-top-wrapper .rating ul{
         display: flex;
@@ -1308,10 +1351,8 @@
     }
      .publication-history ul li {
         display: block;
-        padding-right: 0px;
-        padding-left: 0px;
-        margin-bottom: 10px;
-        margin-right: 0px;
+        padding: 0px;
+        margin: 0;
         border: none;
     }
    .publication-history  .profile-name p span{
@@ -1342,7 +1383,7 @@
     }
     .bottom-section-top-title {
         font-size: 24px;
-        line-height: 28.2px;
+        line-height: 31.2px;
         color: #1C1A67;
     }
    .bottom-section-right .font-20 {
@@ -1351,7 +1392,7 @@
     .account-middle-content{
         
         flex-direction: column;
-        gap: 20px;
+        gap: 0px;
     }
     .ratting-b {
         flex-direction: row;
@@ -1369,6 +1410,7 @@
        flex-direction: column;
        gap: 0px;
        width: 146px; 
+       margin-right: 3px;
     }
     .description-p p {
         font-size: 14px;
@@ -1380,9 +1422,7 @@
         align-items: baseline;
         flex-direction: column;
     }
-    /* .recent-blog-area .btn, .banner-content .banner-content-r .btn{
-        width: auto !important;
-    } */
+  
     .blog-quote-item-three, .blog-quote-item-two, .blog-quote-item {
         
         padding: 15px;
@@ -1394,6 +1434,7 @@
     .blog-quote-item .font-20{
         font-size: 16px;
         font-weight: 400;
+        line-height: 23px;
     }
    
     .blog-quote-item .blog-profile {
@@ -1405,9 +1446,7 @@
         bottom: 0%;
          display: block;
     }
-    .recent-blog-area .blog-btn-abs .btn {
-        max-width: 100% !important;
-    }
+   
     .expert-info .profile-name h4 {
         font-size: 16px;
         line-height: 20.2px;
@@ -1421,9 +1460,7 @@
     .bookkeping-area .mt-5{
         margin-top:25px !important;
     }
-    .faq-accordian .accordion h5 {
-        font-size: 15px;
-    }
+   
     .faq-accordian .accordion h5 .icon {
         width: 28px;
         height: 28px;
@@ -1516,9 +1553,7 @@
         margin-bottom: 20px;
     }
    */
-    .recent-blog-area .btn{
-        max-width: auto !important;
-    }
+   
     .bottom-section-right li h4{
         flex: 1;
     }
@@ -1540,8 +1575,7 @@
         margin-top: 10px;
     }
     .nav-wrappper .nav-tabs .nav-link {
-        font-size: 14px;
-        margin-right: 12px;
+        font-size: 12px !important;
     }
     .zzp-area {
         background: transparent;
@@ -1600,6 +1634,9 @@
         color: rgba(28, 26, 103, 1);
         margin-bottom: 8px;
     }
+    .lg-inline{
+        display: inline;
+    }
     .sm-block{
         display: block;
     }
@@ -1608,7 +1645,19 @@
         padding-bottom: 18px;
         margin-bottom: 0px;
     }
-   
+    .account-lef-title .font-20{
+        font-size: 20px;
+    }
+
+    .recent-blog-area .bottom-section-top-heading .btn{
+        height: 44px;
+        max-width: 207px; 
+    }
+    .blog-sm-btn {
+        padding:0px 16px;
+        height: 40px;
+    }
+  
 }
 
 @media (min-width: 320px) and (max-width: 767px) {
@@ -1621,6 +1670,10 @@
     .bottom-section .mt-5{
         margin-top: 20px !important;
     }
+    .top-section-area .pt-5,
+    .bottom-section-wapper .pt-5{
+        padding-top: 32px !important;
+    }
     .review-btn  .btn-2, .review-btn  .btn-1 {
         padding: 8px 10px;
     }
@@ -1630,5 +1683,43 @@
     .expert-description{
         padding-top: 3px;
     }
+    .load-btn .border-btn{
+        height: 53px;
+    }
+    .software-account-item h5.font-16c{
+        font-size: 14px;
+    }
+    .account-bottom-content {
+        margin-top: 20px;
+    }
+    .recent-blog-area .blog-quote-item-two .btn{
+        max-width: 100%;
+        height: 40px;
+    }
+    .blog-sm-btn .btn{
+        max-width: 100%;
+    }
+    .expert-content .publication-history {
+        margin-top: 14px;
+        margin-bottom: 0px;
+    }
+    .expert-info-des-b .description-p p{
+        color: rgba(17, 17, 17, 1);
     
+    }
+   .bookkeping-area .bottom-section-top-heading  .description-p p,
+   
+    .blog-describe .description-p p{
+        color: rgba(65, 65, 65, 1);
+    }
+    .expert-content .publication-history ul {
+        gap: 6px;
+    }
+    .expert-content .font-24 {
+        line-height: 23.2px;
+    }
+    .expert-content .publication-history ul li{
+        width: 100%;
+    }
 }
+
