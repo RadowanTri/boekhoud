@@ -206,6 +206,8 @@
     -moz-transition: all 0.3s;
     -ms-transition: all 0.3s;
     -o-transition: all 0.3s;
+    width: 270px;
+    max-width: 100%;
 }
 .zzp-single-item:hover {
     border: 1px solid rgba(64, 59, 203, 1);
@@ -1200,6 +1202,10 @@
 }
 .zzp-area .owl-carousel {
     display: flex;
+    flex-wrap: wrap;
+}
+.zzp-area .owl-carousel .owl-item img {
+    width: auto;
 }
 @media (min-width: 992px) and (max-width: 1199px) {
     .font-20{
@@ -1251,7 +1257,14 @@
    
 }
 @media (min-width: 768px) and (max-width: 991px) {
-
+    .banner-content .banner-content-r {
+        text-align: center;
+    }
+    .banner-content .banner-content-r .btn {
+        margin-left: auto;
+        margin-right: auto;
+    }
+   
 }
 @media (min-width: 320px) and (max-width: 991px) {
     .font-20{
@@ -1382,9 +1395,7 @@
     }
   
    
-    .bottom-section-left {
-        display: none;
-    }
+   
     .bottom-section-top-title {
         font-size: 24px;
         line-height: 31.2px;
@@ -1570,10 +1581,7 @@
     .methodology-content .sm-flex, .bookkeping-content .sm-flex{
         margin-bottom: 8px;
     }
-    .top-section-area .banner-content-r .btn {
-        height: 40px;
-        width: 100% !important;
-    }
+   
     .banner-content .banner-content-r{
         margin-top: 10px;
     }
@@ -1661,14 +1669,6 @@
         height: 40px;
     }
   
-}
-
-@media (min-width: 320px) and (max-width: 767px) {
-    .left-side-navigation,
-    .sm-none{
-        display: none;
-    }
-    
     .top-section-area .mt-5,
     .bottom-section .mt-5{
         margin-top: 20px !important;
@@ -1742,3 +1742,15 @@
     }
 }
 
+@media (min-width: 320px) and (max-width: 767px) {
+    .left-side-navigation{
+        display: none;
+    }
+    .bottom-section-left {
+        display: none;
+    }
+    .top-section-area .banner-content-r .btn {
+        height: 40px;
+        width: 100% !important;
+    }
+}
