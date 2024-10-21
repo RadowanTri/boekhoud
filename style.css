@@ -1352,6 +1352,7 @@
      .publication-history ul li {
         padding: 0px;
         margin-bottom: 10px;
+        border-right: 0px;
     
     }
    
@@ -1581,7 +1582,7 @@
         padding: 0px;
         border-radius: 20px;
     }
-    
+
     .zzp-area .zzp-sm {
         flex-wrap: nowrap;
         margin-left: 0px;
@@ -1728,6 +1729,13 @@
     }
     .sm-br {
         display: block;
+    }
+    .zzp-area .owl-carousel{
+        display: flex;
+        padding-right: 0px;
+    }
+    .banner-link-area li:last-child{
+        margin-right:10px;
     }
 }
 

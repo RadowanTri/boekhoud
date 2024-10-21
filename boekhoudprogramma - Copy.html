@@ -956,7 +956,7 @@
 									</p>
 								</div>
 								<!-- zzp-heading end -->
-								<div class="row  owl-carousel  zzp-sm">
+								<div class="row zzp-sm">
 									<div class="col-xl-3 col-lg-4 col-md-6">
 										<div class="zzp-single-item animation">
 											<img src="img/image35 (1).svg" alt="">
@@ -1029,7 +1029,7 @@
 						 <div class="container pl_0">
 							
 							<div class="banner-link-area mt-5">
-								<ul class="m-0 p-0 sme-carousel owl-carousel ">
+								<ul class="m-0 p-0">
 									<li><a href="#" class="active">Best SME</a></li>
 									<li><a href="#">Webshops</a></li>
 									<li><a href="#">Webshops</a></li>
@@ -3635,9 +3635,8 @@
 		// ]]>
 	</script>
 
-	
 	<script>
-			$(document).ready(function() {	
+		$(document).ready(function() {
 			document.getElementById('readMoreBtnOne').addEventListener('click', function() {
 			const moreContent = document.querySelector('.more-content');
 			const isVisible = moreContent.style.display === 'inline';
@@ -3652,20 +3651,16 @@
 			moreContent.style.display = isVisible ? 'none' : 'inline';
 			this.textContent = isVisible ? 'Read More' : 'Read Less';
 		});
-		});
-		$(document).ready(function() {
-	
 			function initOwl() {
 				if ($(window).width() < 768) { // Set your breakpoint for mobile devices
-				$('.zzp-sm').owlCarousel({
+				$('.owl-carousel').owlCarousel({
 					items: 1,  // Number of items in the carousel
-				loop: true,
-				autoplay: true,
-					dots: false,
-					autoWidth: true
+					loop: true,
+					autoplay: true,
+					dots: true
 				});
 				} else {
-				$('.zzp-sm').trigger('destroy.owl.carousel'); // Disable carousel for desktop
+				$('.owl-carousel').trigger('destroy.owl.carousel'); // Disable carousel for desktop
 				}
 			}
 			
@@ -3673,28 +3668,7 @@
 			$(window).resize(function() {
 				initOwl();  // Reinitialize on window resize
 			});
-		});
-		$(document).ready(function() {
-		
-		function initOwl() {
-			if ($(window).width() < 768) { // Set your breakpoint for mobile devices
-			$('.sme-carousel').owlCarousel({
-				items: 1,  // Number of items in the carousel
-			loop: true,
-			autoplay: false,
-				dots: false,
-				autoWidth: true
 			});
-			} else {
-			$('.sme-carousel').trigger('destroy.owl.carousel'); // Disable carousel for desktop
-			}
-		}
-		
-		initOwl();
-		$(window).resize(function() {
-			initOwl();  // Reinitialize on window resize
-		});
-	});
 
 	</script>
 </body>
