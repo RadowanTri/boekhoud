@@ -1350,11 +1350,11 @@
         margin-top: 10px;
     }
      .publication-history ul li {
-        display: block;
         padding: 0px;
-        margin: 0;
-        border: none;
+        margin-bottom: 10px;
+    
     }
+   
    .publication-history  .profile-name p span{
         margin-left: 3px;
         display: inline-block;
@@ -1384,7 +1384,6 @@
     .bottom-section-top-title {
         font-size: 24px;
         line-height: 31.2px;
-        color: #1C1A67;
     }
    .bottom-section-right .font-20 {
         font-size: 18px;
@@ -1713,13 +1712,22 @@
         color: rgba(65, 65, 65, 1);
     }
     .expert-content .publication-history ul {
-        gap: 6px;
+        display: block;
     }
     .expert-content .font-24 {
         line-height: 23.2px;
     }
-    .expert-content .publication-history ul li{
+    .expert-content .publication-history .profile-info{
         width: 100%;
+    }
+    .expert-content .publication-history ul li{
+        display: block;
+    }
+    .faq-accordian .accordion h5 {
+        font-size: 16px;
+    }
+    .sm-br {
+        display: block;
     }
 }
 
