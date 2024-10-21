@@ -1737,5 +1737,8 @@
     .banner-link-area li:last-child{
         margin-right:10px;
     }
+    .zzp-area .zzp-sm{
+        padding-right: 0px;
+    }
 }
 
