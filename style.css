@@ -5,6 +5,49 @@
     color: rgba(17, 17, 17, 1);
 
 }
+.font-18{
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 23.4px;
+    color: rgba(17, 17, 17, 1);
+
+}
+
+.font-14{
+    font-size: 14px;
+    font-weight: 400;
+    color: rgba(17, 17, 17, 1);
+
+}
+.font-20,
+.font-24{
+    font-size: 24px;
+    font-weight: 700;
+    margin: 0;
+    color: rgba(17, 17, 17, 1);
+}
+.font-20{
+    font-size: 20px;
+    /* line-height: 26px; */
+}
+.font-16c{
+    font-size: 16px;
+    font-weight: 400;
+    margin: 0;
+    color: rgba(17, 17, 17, 1);
+}
+.font-14c,
+.font-14{
+    font-size: 14px;
+    font-weight: 400;
+    margin: 0;
+    color: rgba(17, 17, 17, 1);
+    line-height: 22.4px;
+}
+.font-14c{
+    line-height: 18.2px;
+    color: rgba(28, 26, 103, 1);
+}
 .top-section-area  .section-title,
  .section-title{
     color: rgba(5, 14, 41, 1);
@@ -268,20 +311,7 @@
     -o-border-radius: 20px;
     background: transparent !important;
 }
-.font-18{
-    font-size: 18px;
-    font-weight: 500;
-    line-height: 23.4px;
-    color: rgba(17, 17, 17, 1);
 
-}
-
-.font-14{
-    font-size: 14px;
-    font-weight: 400;
-    color: rgba(17, 17, 17, 1);
-
-}
 .filter-section button:focus,
 .filter-section .form-control:focus,
 .filter-section input:focus,
@@ -427,35 +457,7 @@
     align-items: center;
     gap: 10px;
 }
-.font-20,
-.font-24{
-    font-size: 24px;
-    font-weight: 700;
-    margin: 0;
-    color: rgba(17, 17, 17, 1);
-}
-.font-20{
-    font-size: 20px;
-    /* line-height: 26px; */
-}
-.font-16c{
-    font-size: 16px;
-    font-weight: 400;
-    margin: 0;
-    color: rgba(17, 17, 17, 1);
-}
-.font-14c,
-.font-14{
-    font-size: 14px;
-    font-weight: 400;
-    margin: 0;
-    color: rgba(17, 17, 17, 1);
-    line-height: 22.4px;
-}
-.font-14c{
-    line-height: 18.2px;
-    color: rgba(28, 26, 103, 1);
-}
+
 
 .software-leftside-top-hed .font-14 {
     color: rgba(17, 17, 17, 0.7);
@@ -1623,16 +1625,16 @@
         -moz-border-radius: 10px;
         -ms-border-radius: 10px;
         -o-border-radius: 10px;
-}
-.zzp-single-item  img{
-    max-height: 43px;
-}
-.sm-w-43{
-    max-width: 43px;
-}
-.zzp-heading  p{
-    padding-top: 7px !important;
-}
+    }
+    .zzp-single-item  img{
+        max-height: 43px;
+    }
+    .sm-w-43{
+        max-width: 43px;
+    }
+    .zzp-heading  p{
+        padding-top: 7px !important;
+    }
     .zzp-area .top-ratting {
         gap: 6px;
     }
