@@ -1250,12 +1250,11 @@
     width: 75px;
 }
 
-.scroll-container::-moz-scrollbar
+
 .scroll-container::-webkit-scrollbar {
   height: 3px; /* Set the height of the horizontal scrollbar */
 }
 
-.scroll-container::-moz-scrollbar-thumb,
 .scroll-container::-webkit-scrollbar-thumb {
   background-color:rgba(217, 217, 217, 1);
   /*Colorofthescrollbarthumb*/border-radius: 20px;
@@ -1828,10 +1827,15 @@
     .zzp-area .zzp-sm{
         padding-right: 0px;
     } 
-    .scroll-container::-moz-scrollbar,
+    
+}
+@media (min-width: 320px) and (max-width: 575px) {
     .scroll-container::-webkit-scrollbar {
-        height: 0px; /* Set the height of the horizontal scrollbar */
-      }
+        /* Set the height of the horizontal scrollbar */
+          opacity: 0;
+          visibility: hidden;
+          height: 0px;
+        }
 }
 
 @media (min-width: 320px) and (max-width: 374px) {
