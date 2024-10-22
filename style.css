@@ -279,6 +279,7 @@
     flex-wrap: nowrap;
     overflow-x: auto;
     overflow-y: hidden;
+    padding-bottom: 4px !important;
     
 }
 
@@ -1249,6 +1250,23 @@
     width: 75px;
 }
 
+.scroll-container::-webkit-scrollbar {
+  height: 2px; /* Set the height of the horizontal scrollbar */
+}
+
+.scroll-container::-webkit-scrollbar-thumb {
+  background-color:rgba(217, 217, 217, 1);
+  /*Colorofthescrollbarthumb*/border-radius: 20px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+
+.scroll-container::-webkit-scrollbar-track {
+  background-color: none; /* Color of the scrollbar track */
+}
+
 @media (min-width: 992px) and (max-width: 1299px) {
    
 }
@@ -1783,6 +1801,9 @@
    
     .banner-link-area li:last-child{
         margin-right:10px;
+    }
+    .banner-link-area ul{
+        padding-bottom: 5px !important;
     }
    
 }
