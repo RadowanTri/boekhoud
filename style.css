@@ -279,7 +279,10 @@
     flex-wrap: nowrap;
     overflow-x: auto;
     overflow-y: hidden;
+    
 }
+
+
 .banner-link-area li a{
     display: inline-block;
     /* padding: 12px 24px; */
@@ -1245,6 +1248,7 @@
 .zzp-single-item-logo {
     width: 75px;
 }
+
 @media (min-width: 992px) and (max-width: 1299px) {
    
 }
