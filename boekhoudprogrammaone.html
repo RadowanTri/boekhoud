@@ -933,7 +933,7 @@
 									<div class="banner-content-r">
 										<div class="banner-content-r-img position-relative">
 											<img class="banner-img-abs " src="img/AI response.svg" alt="top" >
-											<img src="img/Group 1.svg" alt="banner" loading="lazy">
+											<img src="img/Group 1.png" alt="banner" loading="lazy">
 										</div>
 										<button class="btn">Persoonlijk advies</button>
 									</div>
@@ -2916,7 +2916,7 @@
 														<div class="banner-content-r">
 															<div class="banner-content-r-img position-relative">
 																<img class="banner-img-abs " src="img/AI response (2).svg" alt="ai">
-																<img src="img/blog-men.svg" alt="blog" loading="lazy"> 
+																<img src="img/blog-men.png" alt="blog" loading="lazy"> 
 															</div>
 															<div class="blog-btn-abs">
 																<button class="btn w-auto">Persoonlijk advies</button>
@@ -3703,24 +3703,7 @@
 		
 	$(document).ready(function() {
 	
-			// function initOwl() {
-			// 	if ($(window).width() < 991) {
-			// 	$('.zzp-sm').owlCarousel({
-			// 		items: 1, 
-			// 	   loop: true,
-			// 	   autoplay: true,
-			// 		dots: false,
-			// 		autoWidth: true
-			// 	});
-			// 	} else {
-			// 	$('.zzp-sm').trigger('destroy.owl.carousel');
-			// 	}
-			// }
-			
-			// initOwl();
-			// $(window).resize(function() {
-			// 	initOwl(); 
-			// });
+		
 			$('.zzp-sm').owlCarousel({
 				autoWidth: true,   
 				margin:15,    
@@ -3735,8 +3718,12 @@
 				$(document).ready(function() {
 
 				function initOwl() {
-				if ($(window).width() < 768) { $('.sme-carousel').owlCarousel({ items: 1, loop: true, autoplay: false, dots: false,
-					autoWidth: true }); } else { $('.sme-carousel').trigger('destroy.owl.carousel'); } } initOwl();
+				if ($(window).width() < 768) { 
+					$('.sme-carousel').owlCarousel({
+						 items: 1,
+					    autoWidth: true
+						 }); 
+						} else { $('.sme-carousel').trigger('destroy.owl.carousel'); } } initOwl();
 					$(window).resize(function() { initOwl(); }); });
 	</script>
 </body>
