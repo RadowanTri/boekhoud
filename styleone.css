@@ -3,21 +3,18 @@
 }
 .black-color{
     color: rgba(17, 17, 17, 1);
-
 }
 .font-18{
     font-size: 18px;
     font-weight: 500;
     line-height: 23.4px;
     color: rgba(17, 17, 17, 1);
-
 }
 
 .font-14{
     font-size: 14px;
     font-weight: 400;
     color: rgba(17, 17, 17, 1);
-
 }
 .font-20,
 .font-24{
@@ -28,7 +25,6 @@
 }
 .font-20{
     font-size: 20px;
-    /* line-height: 26px; */
 }
 .font-16c{
     font-size: 16px;
@@ -58,8 +54,6 @@
     margin-top: 0px;
     padding-bottom: 15px;
     word-wrap: break-word;
-    
-
 }
 .top-section-area  .section-title{
     line-height: 56.5px;
@@ -70,7 +64,6 @@
     height: 32px;
     border-radius: 50%;
     background: rgba(217, 217, 217, 1);
-    
 }
 .publication-history ul{
     list-style: none;
@@ -188,7 +181,6 @@
 }
 
 .banner-content	.banner-content-r .btn{
-    /* width: 287px !important; */
     width: 245px !important;
     max-width: 100%;
     height: 48px;
@@ -214,7 +206,6 @@
 }
 .zzp-area .top-ratting{
     display: flex;
-    /* align-items: center; */
     gap: 8px;
 }
 .zzp-area .top-ratting img{ 
@@ -249,7 +240,6 @@
     -moz-transition: all 0.3s;
     -ms-transition: all 0.3s;
     -o-transition: all 0.3s;
-    /* flex: 0 0 270px; */
     width: 270px;
     max-width: 100%;
     align-items: center;
@@ -262,7 +252,6 @@
     background: rgba(239, 247, 255, 1);
     padding: 24px;
     border-radius: 20px;
-
 }
 .banner-link-area{
     list-style: none;
@@ -283,15 +272,11 @@
     padding-bottom: 4px !important;
     
 }
-
-
 .banner-link-area li a{
     display: inline-block;
-    /* padding: 12px 24px; */
     border-radius: 78px;
     font-size: 16px;
     font-weight: 500;
-    /* background: rgb(239 247 255); */
     color: #1C1A67;
     border: 1px solid #EDEEEF;
     display: flex;
@@ -303,7 +288,6 @@
 }
 .banner-link-area li a.active,
 .banner-link-area li a:hover{
-    /* background: rgba(64, 59, 203, 1); */
     background: #EDEDFF;
     color: #403BCB;;
 }
@@ -366,10 +350,10 @@
     background-image: url(img/arrow_down.svg);
   }
 
-  .filter-section .accordion .card-body {
+.filter-section .accordion .card-body {
     padding: 0px;
-  }
-  .filter-section .custom-checkbox .custom-control-label::before {
+}
+.filter-section .custom-checkbox .custom-control-label::before {
     border-radius: 3px;
     -webkit-border-radius: 3px;
     -moz-border-radius: 3px;
@@ -430,9 +414,7 @@
     border: 1px solid rgba(232, 232, 240, 1);
     background: #fff;
     position: relative;
-    
 }
-
 .filter-section .form-control{
     border: 1px solid rgba(232, 232, 240, 1);
     background: rgba(255, 255, 255, 1);
@@ -465,17 +447,13 @@
     align-items: center;
     gap: 10px;
 }
-
-
 .software-leftside-top-hed .font-14 {
     color: rgba(17, 17, 17, 0.7);
-
 }
 .flex-item{
     display: flex;
     align-items: center;
     gap: 10px;
-
 }
 .boekhouder-rating-score{
     font-size: 22px;
@@ -501,7 +479,6 @@
 .software-top-wrapper .rating{
     margin-left: 15px;
 }
-
 .account-wrapper .rating li i,
 .software-top-wrapper .rating li i {
     margin-right:0px;
@@ -590,8 +567,6 @@
     display: flex;
     position: relative;
     opacity: 0;
-    /* margin-inline-start: -12px; */
-    /* display: none; */
     visibility: hidden;
     width: 0;
 }
@@ -604,7 +579,6 @@
     margin-inline-start: 8px;
     -webkit-transition: opacity ease 0.3s, margin ease 0.3s;
     transition: opacity ease 0.3s, margin ease 0.3s;
-    /* display: block; */
     visibility: visible;
     width: 24px;
 }
@@ -627,15 +601,12 @@
     margin-bottom: 15px;
 }
 
-
 .filter-section .software-bottom .accordion .card h4 {
     padding-right: 25px;
     font-size: 16px;
     font-weight: 500;
     margin: 0;
     color: rgba(64, 59, 203, 1);
-    
-
 }
 .filter-section .software-bottom  .card-head {
     display: flex;
@@ -643,14 +614,12 @@
     align-items: center;
    
 }
-
 .filter-section .software-bottom  .accordion .card {
     border: none;
     background: transparent;
     padding: 0px;
     border-radius: 0px;
 }
-
 .font-w-500{
     font-weight: 500;
 }
@@ -725,16 +694,12 @@
     background: rgba(239, 101, 61, 0.1);
 
 }
-
- /* Make the content scrollable */
  .bottom-section-wapper{
     margin-top: 50px;
  }
   .nav-title{
     font-size: 16px;
     font-weight: 500;
-    /* border-bottom: 1px solid rgba(237, 238, 239, 1);
-    padding-bottom: 12px; */
  }
  .bottom-section-left li{
     margin-top: 10px;
@@ -790,20 +755,14 @@
     overflow: hidden;
 
 }
- 
 .linehe-25{
     line-height: 25.6px;
 }
-
-/* .bottom-section-right .account-wrapper .boekhouder-rating-score {
-    font-size: 18px;
-} */
 .ratting-b {
     display: flex;
     flex-direction: column;
     gap: 7px;
 }
-
 .ratting-b a{
     gap: 17px;
 }
@@ -819,11 +778,9 @@
     color: rgba(17, 17, 17, 0.8);
     margin-bottom: 10px;
 }
-
 .read-more-f{
     display: inline-block;    
 }
-
 .read-more:hover{
     color: rgba(64, 59, 203, 1);
 }
@@ -839,7 +796,6 @@
     line-height: 20px;
     cursor: pointer;
     background: none;
-
 }
 .account-middle-content {
     display: flex;
@@ -848,10 +804,8 @@
 }
 .account-left-info {
     width: 100%;
-   
 }
 .account-bottom-content{
-    /* margin-top: 30px; */
     margin-top: 35px;
 }
 .software-account-item{
@@ -889,7 +843,6 @@
     align-items: center;
     gap: 15px;
     justify-content: center;
-   
 }
 .blog-quote-item .blog-profile img{
     width: 50px;
@@ -937,7 +890,6 @@
     -moz-border-radius: 20px;
     -ms-border-radius: 20px;
     -o-border-radius: 20px;
-    /* width: 262px; */
     max-width: 100%;
     gap: 16px;
 }
@@ -972,7 +924,6 @@
     line-height: 31.2px;
     margin: 0;
     color: #fff;
-
 }
 .expert-info {
     display: inline-block;
@@ -1005,7 +956,6 @@
 .expert-info-des-b p{
     margin-bottom: 12px;
 }
-
 .expert-info-des-b p:last-child{
     margin-bottom: 0px;
 }
@@ -1018,7 +968,6 @@
     color: rgba(17, 17, 17, 1);
 
 }
-
 .methodology-content .icon,
 .bookkeping-content .icon{
     display: flex;
@@ -1047,7 +996,6 @@
     -o-border-radius: 20px;
     margin-top: 15px;
 }
-
 .bookkeping-content li:nth-child(2) {
     background: rgba(239, 247, 255, 1);
 }
@@ -1096,7 +1044,6 @@
 .faq-accordian .accordion h5 .flex-1{
     flex: 1;
 }
-
 .faq-accordian .accordion h5 .icon{
    display: flex;
    align-items: center;
@@ -1134,7 +1081,6 @@
     -o-border-radius: 20px;
     margin-bottom: 15px;
 }
-
 .boekhouder-rating-score  .ratting-reviews ,
 .ratting-reviews{
     font-size: 18px;
@@ -1143,8 +1089,7 @@
 .d-none-lg{
     display: none;
 }
-
- .publication-history .profile-name p span{
+.publication-history .profile-name p span{
     display: block;
 }
 .lg-none{
@@ -1238,21 +1183,18 @@
     position: sticky;
     top: 3rem;
 }
-
-/* .zzp-sm {
-    display: flex;
-    gap: 16px;
-    flex-wrap: nowrap;
-    overflow-x: auto;
-    overflow-y: hidden;
-    padding-bottom: 4px;
-} */
-
 .zzp-single-item-logo {
     width: 75px;
 }
-
-
+.box-hover{
+    transition: box-shadow .3s;
+}
+.box-hover:hover{
+    box-shadow: 0 0 11px rgba(33,33,33,.2); 
+}
+.zzp-sm.owl-carousel .owl-stage{
+    display: flex;
+}
 
 
 @media (min-width: 992px) and (max-width: 1199px) {
@@ -1285,7 +1227,6 @@
     .filter-section .left-side-navigation .accordion .card{
         padding: 16px;
     }
-   
     .review-btn .btn-2, .review-btn .btn-1{
         padding: 8px 12px;
     }
@@ -1311,7 +1252,6 @@
     .acc-top-log svg {
         max-width: 215px;
     }
-   
 }
 @media (min-width: 768px) and (max-width: 991px) {
     .banner-content .banner-content-r {
@@ -1321,7 +1261,6 @@
         margin-left: auto;
         margin-right: auto;
     }
-   
 }
 @media (min-width: 320px) and (max-width: 991px) {
     .font-20{
@@ -1330,18 +1269,15 @@
     .font-24 {
         font-size: 18px;
     }
-   
     .font-18 {
         font-size: 16px;
         font-weight: 500;
     }
-
     .sm-flex{
         display: flex;
         align-items: center;
         gap: 10px;
     }
-
     .sm-none{
         display: none;
     }
@@ -1428,7 +1364,6 @@
         border-right: 0px;
     
     }
-   
    .publication-history  .profile-name p span{
         margin-left: 3px;
         display: inline-block;
@@ -1450,9 +1385,6 @@
    .software-overview-item .btn{
         width: 193px !important;
     }
-  
-   
-   
     .bottom-section-top-title {
         font-size: 24px;
         line-height: 31.2px;
@@ -1461,7 +1393,6 @@
         font-size: 18px;
     }
     .account-middle-content{
-        
         flex-direction: column;
         gap: 0px;
     }
@@ -1469,14 +1400,11 @@
         flex-direction: row;
         gap: 8px;
         margin-top: 15px;
-      
     }
-    
     .read-more {
         font-size: 14px;
         line-height: 16px;
     }
-
     .ratting-b a{
        flex-direction: column;
        gap: 0px;
@@ -1487,7 +1415,6 @@
         font-size: 14px;
         line-height: 22.2px;
     }
-   
     .recent-blog-area .bottom-section-top-heading {
         display: flex;
         align-items: baseline;
@@ -1495,7 +1422,6 @@
     }
   
     .blog-quote-item-three, .blog-quote-item-two, .blog-quote-item {
-        
         padding: 15px;
         border-radius: 24px 4px 24px 4px;
     }
@@ -1515,9 +1441,8 @@
         position: relative;
         right: 0%;
         bottom: 0%;
-         display: block;
+        display: block;
     }
-   
     .expert-info .profile-name h4 {
         font-size: 16px;
         line-height: 20.2px;
@@ -1536,17 +1461,7 @@
         width: 28px;
         height: 28px;
     }
-    /* .faq-accordian .accordion h5.collapsed:before {
-     background: url(img/arrow-wb.svg) no-repeat calc(100% - 0px) center;
-    }
-    .faq-accordian .accordion h5::before {
-        background: url(img/arrow-wt.svg) no-repeat calc(100% - 0px) center;
-        content: "";
-        height: 15px;
-        width: 15px;
-        right: 7px;
-    } */
-     .faq-accordian .accordion h5 .icon::before {
+    .faq-accordian .accordion h5 .icon::before {
         right: 8px;
     }
     .faq-accordian .faq-item {
@@ -1586,7 +1501,6 @@
         -ms-flex-wrap: nowrap;
         flex-wrap: nowrap;
     }
-    
     .zzp-area {
         padding: 15px;
     }
@@ -1594,11 +1508,9 @@
     .zzp-heading p svg path{
        stroke:#403BCB; 
     }
-  
     .soft-title{
         text-align: end;
     }
-
     .filter-section .single-software {
          padding: 15px;
     }
@@ -1614,18 +1526,9 @@
     .boekhouder-rating-score .ratting-reviews, .ratting-reviews {
         font-size: 15px;
     }
-   
     .account-wrapper .rating li i, .software-top-wrapper .rating li i {
         font-size: 16px;
     }
- 
-
-    /* .nav-wrappper .nav-tabs {
-        border-bottom: none;
-        margin-bottom: 20px;
-    }
-   */
-   
     .bottom-section-right li h4{
         flex: 1;
     }
@@ -1651,7 +1554,6 @@
         padding: 0px;
         border-radius: 20px;
     }
-
     .zzp-area .zzp-sm {
         margin-left: 0px;
         margin-right: -15px;
@@ -1663,18 +1565,14 @@
         -ms-border-radius: 12px;
         -o-border-radius: 12px;
     }
-  
     .zzp-single-item {
-        flex: 0 0 250px;
         border-radius: 10px;
         padding: 12px;
-        /* margin-right: 13px; */
         -webkit-border-radius: 10px;
         -moz-border-radius: 10px;
         -ms-border-radius: 10px;
         -o-border-radius: 10px;
     }
-    
     .sm-w-43{
         max-width: 43px;
     }
@@ -1721,7 +1619,6 @@
         padding:0px 16px;
         height: 40px;
     }
-  
     .top-section-area .mt-5,
     .bottom-section .mt-5{
         margin-top: 20px !important;
@@ -1818,11 +1715,10 @@
 }
 @media (min-width: 320px) and (max-width: 575px) {
     .scroll-container::-webkit-scrollbar {
-        /* Set the height of the horizontal scrollbar */
-          opacity: 0;
-          visibility: hidden;
-          height: 0px;
-        }
+        opacity: 0;
+        visibility: hidden;
+        height: 0px;
+    }
 }
 
 @media (min-width: 320px) and (max-width: 374px) {
