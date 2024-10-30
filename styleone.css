@@ -1625,6 +1625,9 @@
     .zzp-area .zzp-sm{
         padding-right: 0px;
     } 
+    .right-side-navigation{
+        margin-top: 20px;
+    }
     
 }
 @media (min-width: 320px) and (max-width: 575px) {
