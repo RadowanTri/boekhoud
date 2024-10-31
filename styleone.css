@@ -1113,7 +1113,84 @@
     display: flex;
 }
 
- 
+.wat-details p{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    color: rgba(0, 0, 0, 1);
+
+}
+.wat-details p span{
+    font-weight: 700;
+}
+.wat-details p a{
+    color: rgba(64, 59, 203, 1);
+    text-decoration: underline;
+    display: inline-block;
+}
+.kenmerken-details li{
+    margin-bottom: 13px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 2px 0px;
+}
+.kenmerken-details li p{
+    font-size: 14px;
+    font-weight: 500;
+    color: rgba(17, 17, 17, 1);
+    margin-bottom: 0;
+}
+.software-bottom .all-feature-btn{
+    margin-top: 20px;
+}
+.software-bottom .all-feature-btn a{
+    font-size: 14px;
+    font-weight: 500;
+    color: rgba(64, 59, 203, 1);
+}
+.odermemers-top p{
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 15.6px;
+    color:rgba(88, 88, 88, 1);
+    margin-bottom: 0px;
+}
+.odermemers-top h6{
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 18.2px;
+    color: rgba(0, 0, 0, 1);
+    margin-top: 3px;
+}
+.odermemers-wrapper{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid rgba(237, 238, 239, 1);
+    min-height: 139px;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    padding: 17px;
+}
+.odermemers-bottom{
+
+    margin-top: auto;
+}
+.odermemers-wrapper .odermemers-bottom h5{
+    font-size: 18px;
+    font-weight: 600;
+    color: rgba(0, 0, 0, 1);
+    margin: 0px;
+    
+}
+.odermemers-bottom h5 span{
+    font-size: 14px;
+    font-weight: 400;
+    color:rgba(88, 88, 88, 1);
+}
 
 @media (min-width: 992px) and (max-width: 1199px) {
     .font-20{
@@ -1167,6 +1244,9 @@
     }
     .acc-top-log svg {
         max-width: 215px;
+    }
+    .odermemers-wrapper {
+        padding: 15px;
     }
 }
 @media (min-width: 768px) and (max-width: 991px) {
@@ -1606,7 +1686,30 @@
     .banner-link-area ul{
         padding-bottom: 5px !important;
     }
-   
+    .odermemers-top h6 {
+        font-size: 13px;
+    }
+    .odermemers-wrapper {
+        margin-bottom: 15px;
+        padding: 15px;
+    }
+    .pros-details-title {
+        font-size: 13px;
+        padding:9px;
+        line-height: 17.2px;
+    }
+    .kenmerken-details li p {
+        font-size: 13px;
+    }
+    .wat-details p {
+        font-size: 13px;
+    }
+    .odermemers-wrapper .odermemers-bottom h5 {
+        font-size: 17px;
+    }
+    .odermemers-wrapper {
+        min-height: 120px;
+    }
 }
 
 @media (min-width: 320px) and (max-width: 767px) {
