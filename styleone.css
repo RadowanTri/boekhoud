@@ -367,7 +367,7 @@
     align-items: center;
     gap: 10px;
 }
-.software-leftside-top-hed .font-14 {
+.right-side-navigation .software-leftside-top-hed .font-14 {
     color: rgba(17, 17, 17, 0.7);
 }
 .flex-item{
@@ -405,7 +405,7 @@
     font-size: 20.2px;
     color: rgba(27, 190, 132, 1);
 }
-.soft-ratting-wrapper{
+ .soft-ratting-wrapper{
     display: flex;
     align-items: center;
     margin: 15px 0px;
@@ -521,20 +521,20 @@
     margin-bottom: 15px;
 }
 
-.right-side-navigation .software-bottom .accordion .card h4 {
+.software-bottom .accordion .card h4 {
     padding-right: 25px;
     font-size: 16px;
     font-weight: 500;
     margin: 0;
     color: rgba(64, 59, 203, 1);
 }
-.right-side-navigation .software-bottom  .card-head {
+.software-bottom  .card-head {
     display: flex;
     justify-content: space-between;
     align-items: center;
    
 }
-.right-side-navigation .software-bottom  .accordion .card {
+.software-bottom  .accordion .card {
     border: none;
     background: transparent;
     padding: 0px;
@@ -563,16 +563,16 @@
 }
 .expert-content .font-24{
     line-height: 31.2px;
-}
-.nav-wrappper {
+} 
+.right-side-navigation .nav-wrappper {
     margin-top: 10px;
 }
- .nav-wrappper .nav-tabs {
+.right-side-navigation .nav-wrappper .nav-tabs {
     border-bottom: 1px solid rgba(237, 238, 239, 1);
     margin-bottom: 25px;
   }
 
-  .nav-wrappper .nav-tabs .nav-link {
+  .right-side-navigation  .nav-wrappper .nav-tabs .nav-link {
     border: none; 
     font-size: 14px !important;
     font-weight: 600;
@@ -1019,7 +1019,7 @@
     flex: 1;
     justify-content: end;
 }
-.filter-btn-sm{
+.btn-sm-f{
     border: 1px solid rgba(232, 232, 240, 1);
     background: transparent;
     padding: 9px 12px;
