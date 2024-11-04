@@ -293,20 +293,32 @@
 }
 
 
-.right-side-navigation .single-software{
-    padding: 24px;
-    border: 1px solid rgba(237, 238, 239, 1);
-    border-radius: 20px;
-    -webkit-border-radius: 20px;
-    -moz-border-radius: 20px;
-    -ms-border-radius: 20px;
-    -o-border-radius: 20px;
+ .single-software{
+    padding: 24px !important;
+    border: 1px solid rgba(237, 238, 239, 1) !important;
+    border-radius: 20px !important;
+    -webkit-border-radius: 20px !important;
+    -moz-border-radius: 20px !important;
+    -ms-border-radius: 20px !important;
+    -o-border-radius: 20px !important;
     background: transparent !important;
+    transition: box-shadow .3s !important;
+    -webkit-transition: box-shadow .3s !important;
+    -moz-transition: box-shadow .3s !important;
+    -ms-transition: box-shadow .3s !important;
+    -o-transition: box-shadow .3s !important;
 }
 
-.right-side-navigation button:focus,
-.right-side-navigation .form-control:focus,
-.right-side-navigation input:focus{
+.single-software:hover{
+    box-shadow: 0 0 11px rgba(33,33,33,.2); 
+}
+
+.bottom-section button:focus,
+.bottom-section .form-control:focus,
+.bottom-section input:focus,
+.single-software button:focus,
+.single-software .form-control:focus,
+.single-software input:focus{
     outline: none;
     box-shadow: none;
   }
@@ -314,7 +326,7 @@
 
 .account-bottom-content .accordion  h5,
 .software-overview   .accordion  h3,
-  .right-side-navigation .accordion .card h4 {
+  .software-bottom .accordion .card h4 {
     background: url(img/arrow_up.svg) no-repeat calc(100% - 5px) center;
     cursor: pointer;
     margin: 0;
@@ -326,50 +338,15 @@
   }
   .account-bottom-content h5.collapsed,
   .software-overview   .accordion  h3.collapsed,
-  .right-side-navigation .accordion .card h4.collapsed {
+  .software-bottom .accordion .card h4.collapsed {
     background-image: url(img/arrow_down.svg);
   }
 
-.right-side-navigation .accordion .card-body {
+.software-bottom .accordion .card-body {
     padding: 0px;
 }
 
 
-.right-side-navigation .form-control{
-    border: 1px solid rgba(232, 232, 240, 1);
-    background: rgba(255, 255, 255, 1);
-    padding: 9px 12px;
-    border-radius: 57px;
-    -webkit-border-radius: 57px;
-    -moz-border-radius: 57px;
-    -ms-border-radius: 57px;
-    -o-border-radius: 57px;
-    max-width: 300px;
-    appearance: none;
-    background: url(img/arrow-b.png) no-repeat calc(100% - 12px) center;
-    background-size: 10px;
-    position: relative;
-    font-size: 14px;
-}
-.right-side-navigation  select.form-control:not([size]):not([multiple]) {
-    height: auto;
-}
-.right-side-navigation .sorteer{
-    display: flex;
-    gap: 10px;
-    align-items: center;
-    flex: 1;
-    justify-content: end;
-}
-.top-r-navigation{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    gap: 10px;
-}
-.right-side-navigation .software-leftside-top-hed .font-14 {
-    color: rgba(17, 17, 17, 0.7);
-}
 .flex-item{
     display: flex;
     align-items: center;
@@ -564,15 +541,15 @@
 .expert-content .font-24{
     line-height: 31.2px;
 } 
-.right-side-navigation .nav-wrappper {
+.software-bottom .nav-wrappper {
     margin-top: 10px;
 }
-.right-side-navigation .nav-wrappper .nav-tabs {
+.software-bottom .nav-wrappper .nav-tabs {
     border-bottom: 1px solid rgba(237, 238, 239, 1);
     margin-bottom: 25px;
   }
 
-  .right-side-navigation  .nav-wrappper .nav-tabs .nav-link {
+  .software-bottom .nav-wrappper .nav-tabs .nav-link {
     border: none; 
     font-size: 14px !important;
     font-weight: 600;
@@ -583,12 +560,12 @@
 
   }
 
-  .nav-wrappper .nav-tabs .nav-link.active {
+  .software-bottom .nav-wrappper .nav-tabs .nav-link.active {
     color: rgba(64, 59, 203, 1);
     border-bottom: 2px solid rgba(64, 59, 203, 1);
   }
 
-  .nav-wrappper .nav-tabs .nav-link:hover {
+  .software-bottom .nav-wrappper .nav-tabs .nav-link:hover {
     color: rgba(64, 59, 203, 1);
   }
 
@@ -1015,10 +992,7 @@
 .lg-none{
     display: none;
 }
-.sorteer .flex-item{
-    flex: 1;
-    justify-content: end;
-}
+
 .btn-sm-f{
     border: 1px solid rgba(232, 232, 240, 1);
     background: transparent;
@@ -1103,12 +1077,7 @@
 .zzp-single-item-logo {
     width: 75px;
 }
-.box-hover{
-    transition: box-shadow .3s;
-}
-.box-hover:hover{
-    box-shadow: 0 0 11px rgba(33,33,33,.2); 
-}
+
 .zzp-sm.owl-carousel .owl-stage{
     display: flex;
 }
@@ -1193,6 +1162,14 @@
     color:rgba(88, 88, 88, 1);
 }
 
+#FAC_Sort{
+    border-radius: 25px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    -ms-border-radius: 25px;
+    -o-border-radius: 25px;
+}
+
 @media (min-width: 992px) and (max-width: 1199px) {
     .font-20{
         font-size: 18px;
@@ -1204,8 +1181,8 @@
         font-size:42px;
         line-height: 42px;
     }
-    .right-side-navigation .single-software{
-        padding: 18px;
+    .single-software{
+        padding: 18px !important; 
     }
     .zzp-single-item{
         padding: 12px 16px;
@@ -1217,9 +1194,7 @@
         font-size: 17px;
         line-height: 22px;
     }
-   .sorteer .sm-none{
-        display: none;
-    }
+   
     
     .review-btn .btn-2, .review-btn .btn-1{
         padding: 8px 12px;
@@ -1492,7 +1467,7 @@
         width: 100%;
         justify-content: space-between;
     }
-    .single-software-wrappers #myTab.nav-tabs {
+    .software-bottom #myTab.nav-tabs {
         overflow-x: auto;
         overflow-y: hidden;
         -ms-flex-wrap: nowrap;
@@ -1508,8 +1483,8 @@
     .soft-title{
         text-align: end;
     }
-    .right-side-navigation .single-software {
-         padding: 15px;
+    .single-software {
+         padding: 15px !important;
     }
     .software-top-content-icon .soft-badge img{
         max-width: 42px;
@@ -1543,7 +1518,7 @@
     .banner-content .banner-content-r{
         margin-top: 10px;
     }
-    .nav-wrappper .nav-tabs .nav-link {
+    .software-bottom .nav-wrappper .nav-tabs .nav-link {
         font-size: 12px !important;
     }
     .zzp-area {
@@ -1586,13 +1561,7 @@
     .top-section-area .pl_0 {
         padding-right: 0px;
     }
-    .top-r-navigation .f-sm-20{
-        font-size: 20px;
-        font-weight: 700;
-        line-height: 26px;
-        color: rgba(28, 26, 103, 1);
-        margin-bottom: 8px;
-    }
+  
     .lg-inline{
         display: inline;
     }
@@ -1729,9 +1698,7 @@
     .zzp-area .zzp-sm{
         padding-right: 0px;
     } 
-    .right-side-navigation{
-        margin-top: 20px;
-    }
+   
     
 }
 @media (min-width: 320px) and (max-width: 575px) {
